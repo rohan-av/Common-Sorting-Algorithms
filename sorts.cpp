@@ -7,11 +7,11 @@ void printarray(int *arr,int len);
 void bubblesort(int *arr, int len);
 void bubblesort_alternate(int *arr, int len);
 void selectionsort(int *arr, int len);
-void insertionsort(int *arr, int len); //incomplete
-void mergeSort(int *arr, int i, int j); //incomplete
-void quicksort(int a[], int i, int j); //incomplete
+void insertionsort(int *arr, int len);
+void mergeSort(int *arr, int i, int j); 
+void quicksort(int a[], int i, int j);
 void merge(int a[], int i, int mid, int j);
-void radixsort(int *arr, int len);
+void radixsort(int *arr, int len); // future addition
 void swap(int a[],int i, int j);
 int partition(int a[], int i, int j);
 
